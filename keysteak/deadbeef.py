@@ -17,7 +17,8 @@ def deadbeef(target=_TEST_TARGET, length=128, prime_length=4096,
 
     Returns a strong prime `p`, a prime `q`, and a private exponent
     `d` such that the last `length` bits of `p * q` is equal to
-    `target`.
+    `target`. (It is obvious, I hope, that the resulting key does
+    not have any particular security guarantee.)
 
     Or loops forever if the last bit of `target` is `0`.
     """
@@ -25,7 +26,6 @@ def deadbeef(target=_TEST_TARGET, length=128, prime_length=4096,
     while not d:
         N = 2 ** length
         p = pubkey.getStrongPrime(2048)
-        q = pubkey.getPrime(2048 - length)
         x = target * 2 ** (2048 - 2 * length) - 1
         q = x * ((target * invert(p * x, N)) % N)
         while not pubkey.isPrime(q):
