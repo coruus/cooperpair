@@ -33,12 +33,9 @@ import re
 import shutil
 import subprocess
 import tempfile
-
-DEFAULT_KEYSERVER = "hkp://keyserver.ubuntu.com:80/"
-
-
 from os.path import expanduser
 
+DEFAULT_KEYSERVER = "hkp://keyserver.ubuntu.com:80/"
 
 def encode(s):
     return re.sub("[^a-zA-Z0-9_-]", "_", s)
@@ -116,6 +113,7 @@ class KeyFetcher(object):
   def add_key(self, fingerprint):
     """Search for and import the key corresponding to `fingerprint`.
     """
+    fingerprint = fingerprint.strip().replace(' ', '')
     def cleanup(tmpdir):
         shutil.rmtree(tmp_keyring_dir)
 
@@ -156,4 +154,4 @@ __all__ = ['KeyFetcher']
 
 if __name__ == "__main__":
   import sys
-  print(KeyFetcher().add_key(sys.argv[1].strip().replace(' ', '')))
+  print(KeyFetcher().add_key(sys.argv[1]))
