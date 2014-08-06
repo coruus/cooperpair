@@ -43,7 +43,6 @@ def main(star):
         rsa_priv = None
 
     response = future.result()
-    print(response.content)
     pub_key = dumpbuffer(response.content)
     if rsa_priv is None:
         rsa_priv = deadbeef(int(pub_key[0].key_id, base=16), length=64)
