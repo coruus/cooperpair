@@ -88,7 +88,7 @@ def remunge(params, raw_uid):
 
     signer = PKCS1_v1_5.new(rsa_key)
     message = restamped_pub.raw_data + uid + sigtohash + sigtrailer
-    h = SHA512.new(message)
+    h = SHA512.new(bytes(message))
     signature = signer.sign(h)
 
     digest = h.digest()

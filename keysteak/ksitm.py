@@ -16,7 +16,7 @@ from remunge import remunge
 
 app = Flask(__name__)
 app.config['SERVER_NAME'] = '127.0.0.1:11371'
-app.debug = False
+app.debug = True
 
 session = FuturesSession()
 
@@ -27,7 +27,8 @@ def main(star):
 
     All requests other than get ops are transparently forwarded.
     """
-    future = session.get(request.url.replace('127.0.0.1', 'keys.gnupg.net'))
+    future = session.get(request.url.replace('127.0.0.1',
+                                             'keyserver.ubuntu.com'))
     if request.args['op'] != 'get' or request.args['options'] != 'mr':
         response = future.result()
         return response.content
@@ -42,6 +43,7 @@ def main(star):
         rsa_priv = None
 
     response = future.result()
+    print(response.content)
     pub_key = dumpbuffer(response.content)
     if rsa_priv is None:
         rsa_priv = deadbeef(int(pub_key[0].key_id, base=16), length=64)
