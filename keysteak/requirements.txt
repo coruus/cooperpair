@@ -1,1 +1,4 @@
 pycrypto>=2.6
+Flask>=0.10
+git+https://github.com/coruus/python-pgpdump#egg=pgpdump
+gmpy>=1.17
