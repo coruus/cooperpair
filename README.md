@@ -23,11 +23,11 @@ rely on this for safety.)
 **The ugly.** Various attacks on OpenPGP implementations. (These are attacks at the protocol level; not exploits.)
 
 `keysteak` is a proof-of-concept keyserver-in-the-middle which uses the old `0xdeadbeef` attack. Check
-whether it works on your OpenPGP implementation of choice.
+whether it works on your OpenPGP implementation of choice. Just when you thought you were safe. . . .
 
 `encrux` provides some PoC code for a downgrade attack that uses an integrity-protected message to get a valid non-integrity-protected message (with p=2^-15).
 
-`discus` will contain a fully "weaponized" double-share-key-share attack.
+`discus` will contain a fully "weaponized" double-share-key-share attack on RSA signatures.
 
 ### License
 
