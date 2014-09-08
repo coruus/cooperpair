@@ -1,6 +1,6 @@
 ## COOPERPAIR
 
-*The good.* Some things to keep you safe(r), if you use GnuPG:
+**The good.** Some things to keep you safe(r), if you use GnuPG:
 
 `saneprefs` contains a reasonably sane set of preferences for GnuPG.
 
@@ -16,11 +16,11 @@ by the `apt-add-repository` utility in Ubuntu. Suitable for use in automated con
 note that the requirements to obtain an SKS keyserver certificate are very weak. It is insufficient to
 rely on this for safety.)
 
-*The bad.* Some exotic testcases for software implementing the OpenPGP standard.
+**The bad.** Some exotic testcases for software implementing the OpenPGP standard.
 
 `pgpv4` contains PGPv4 keys with colliding key ids.
 
-*The ugly.* Various attacks on OpenPGP implementations. (These are attacks at the protocol level; not exploits.)
+**The ugly.** Various attacks on OpenPGP implementations. (These are attacks at the protocol level; not exploits.)
 
 `keysteak` is a proof-of-concept keyserver-in-the-middle which uses the old `0xdeadbeef` attack. Check
 whether it works on your OpenPGP implementation of choice.
