@@ -1,0 +1,2 @@
+git+https://github.com/coruus/python-pgpdump#egg=pgpdump
+requests>=2.3
