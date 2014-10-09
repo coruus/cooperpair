@@ -9,11 +9,11 @@ crc24pgp = Crc(0x1864CFB,
                rev=False,
                xorOut=0)
 
-TEMPLATE = (b''
-  '-----BEGIN PGP {what}-----\x0a\x0a'
-  '{b64}\x0a'
-  '={crc}\x0a\x0a'
-  '-----END PGP {what}-----\x0a')
+TEMPLATE = (
+  b'-----BEGIN PGP {what}-----\x0a\x0a'
+  b'{b64}\x0a'
+  b'={crc}\x0a\x0a'
+  b'-----END PGP {what}-----\x0a')
 
 def armor(s, what="PUBLIC KEY BLOCK"):
   crc = b64encode(crc24pgp.new(s).digest())
