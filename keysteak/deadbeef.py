@@ -25,8 +25,8 @@ def deadbeef(target=_TEST_TARGET, length=128, prime_length=4096,
   d = 0
   while not d:
     N = 2 ** length
-    p = pubkey.getStrongPrime(2048)
-    x = target * 2 ** (2048 - 2 * length) - 1
+    p = pubkey.getStrongPrime(2048-128)
+    x = target * 2 ** (2048 - 128 - 2 * length) - 1
     q = x * ((target * invert(p * x, N)) % N)
     while not pubkey.isPrime(q):
       q += N
