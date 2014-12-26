@@ -1,5 +1,9 @@
 # Testcases for PGPv4 long key-id collisions
 
+And, the always awesome OpenKeychain -- by far the best OpenPGP software out there -- [is actually testing for this][openkeychain]!
+
+[openkeychain]: https://github.com/open-keychain/open-keychain/tree/development/OpenKeychain-Test/src/test/resources/test-keys/cooperpair
+
 ## What's here:
 
 At the moment, just a pair of colliding public keys. These are in the minimal format necessary for, e.g., GnuPG to import them: a public key packet, a UID packet, and a self-certification of the public key and UID.
