@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+v=$(which gpgv2 || which gpgv)
+${v} --keyring ./kristian.friskerstrand.pubkey sks-keyservers.netCA.pem.asc
 test -d ~/.gnupg || mkdir ~/.gnupg
 test -f ~/.gnupg/gpg.conf && mv ~/.gnupg/gpg.conf ~/.gnupg/gpg.conf.backup
 cp gpg.conf ~/.gnupg/gpg.conf

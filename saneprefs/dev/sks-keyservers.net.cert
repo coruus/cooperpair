@@ -1,0 +1,126 @@
+CONNECTED(00000003)
+---
+Certificate chain
+ 0 s:/OU=Go to https://www.thawte.com/repository/index.html/OU=Thawte SSL123 certificate/OU=Domain Validated/CN=sks-keyservers.net
+   i:/C=US/O=Thawte, Inc./OU=Domain Validated SSL/CN=Thawte DV SSL CA
+ 1 s:/C=US/O=Thawte, Inc./OU=Domain Validated SSL/CN=Thawte DV SSL CA
+   i:/C=US/O=thawte, Inc./OU=Certification Services Division/OU=(c) 2006 thawte, Inc. - For authorized use only/CN=thawte Primary Root CA
+ 2 s:/C=US/O=thawte, Inc./OU=Certification Services Division/OU=(c) 2006 thawte, Inc. - For authorized use only/CN=thawte Primary Root CA
+   i:/C=ZA/ST=Western Cape/L=Cape Town/O=Thawte Consulting cc/OU=Certification Services Division/CN=Thawte Premium Server CA/emailAddress=premium-server@thawte.com
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIF7DCCBNSgAwIBAgIQKdu5XpWOC13s84qzcNJ/5TANBgkqhkiG9w0BAQUFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMVGhhd3RlLCBJbmMuMR0wGwYDVQQLExRE
+b21haW4gVmFsaWRhdGVkIFNTTDEZMBcGA1UEAxMQVGhhd3RlIERWIFNTTCBDQTAe
+Fw0xNDAzMDEwMDAwMDBaFw0xNTAzMzEyMzU5NTlaMIGZMTswOQYDVQQLEzJHbyB0
+byBodHRwczovL3d3dy50aGF3dGUuY29tL3JlcG9zaXRvcnkvaW5kZXguaHRtbDEi
+MCAGA1UECxMZVGhhd3RlIFNTTDEyMyBjZXJ0aWZpY2F0ZTEZMBcGA1UECxMQRG9t
+YWluIFZhbGlkYXRlZDEbMBkGA1UEAxQSc2tzLWtleXNlcnZlcnMubmV0MIICIjAN
+BgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1dP0xTFZMlwCAtUUbKflEAjl+MBe
+3zkzv/HCs+fwCSceOg6zu6Gkz32NFZZW5ZwxhQX7l07z4zEtjZiIhQxZDHonbGpM
+QvlcR8YLYYMJwHaqXZuzJuBvJMM6wUDXWSoPca6KnqBBoo69CUSxUhaiCpVKcT0l
+aDjAOSsNTzqTV80uWeRs0NKTx3smMODYx71k/Xla70Rl3v/QUjFj+IWpqRECwqO5
+0/LjUUO8Y1DAZsA8z74yPamvD1dRTKNTT8hWRkUfl79yhW5LGWf8XWNj+OIkrnVl
+JcZnDfZ+sq2uqndw6YBMRipehx+xmPIRO8iw3hXwd+w4Q3Y/up46gOGk8IEXvIOD
+BkGkiX0DT7JwGwJAytIbOmYhJD/VIpJ+Tb1fDKLs9qubG/Jz3b2//qXjxH4YCvpT
+IYLWzMLg8GeSuTydLuqWYCuaVLMpiNjwxRxB3dG7bWrWN0m+zBUUihUx8fWQ5Xyt
+ZfzGwMkaEa43uJr5ockbojoHK2VbLsv5eA/cDUPDYtkSlcmzMS/xcFFd4rzCvLzN
+6/rg8jKUU5x6rFL7rAn3jMr9dxh1eYX8FrqmIZ9mHsktr1TlR44qb0YkiaNhLmVt
+e5FkOb//V03UYIot9R02vnsEPpmuBcHgOjmVyWo/FCPAJwnELYY0g4FclNK6EOI1
+YkMld2CZ5wlzBb8CAwEAAaOCAWgwggFkMB0GA1UdEQQWMBSCEnNrcy1rZXlzZXJ2
+ZXJzLm5ldDAJBgNVHRMEAjAAMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly9zdnIt
+ZHYtY3JsLnRoYXd0ZS5jb20vVGhhd3RlRFYuY3JsMEEGA1UdIAQ6MDgwNgYKYIZI
+AYb4RQEHNjAoMCYGCCsGAQUFBwIBFhpodHRwczovL3d3dy50aGF3dGUuY29tL2Nw
+czAfBgNVHSMEGDAWgBSrRORd7IPH2cCFn/fhxpeQsIw/mDAOBgNVHQ8BAf8EBAMC
+BaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMGkGCCsGAQUFBwEBBF0w
+WzAiBggrBgEFBQcwAYYWaHR0cDovL29jc3AudGhhd3RlLmNvbTA1BggrBgEFBQcw
+AoYpaHR0cDovL3N2ci1kdi1haWEudGhhd3RlLmNvbS9UaGF3dGVEVi5jZXIwDQYJ
+KoZIhvcNAQEFBQADggEBACfJt5DKswrzsumTIWAWMr2L/nikXU8/m9UpYfjadHAa
+e694ph6s53fx0hxyy0NmA/UxtacqeColHHk47X/YKPf6qx/0wPPipVHoZkbCVNvi
+wMZtjCOAw/FnagE76K2hlua2aJ49Vd59/Vsxs2vSzgphibYgkq5w0lK55nw5eAvc
+x+F0pRoSh9PHr965007rM55dvw/MH5j9ATqtoNF4UJdftJyKFWvbUzdFgnD2HCJr
+d1/21F6e6FKMhy7nlrsjUGgXnRPUrT+edTeEmPbJ1CRFcsM1sacrV/mKYKhadgeB
+3daqtBJ/RtaLkcuqIKWkjssvW1BmczKgeUGQ24cIZ4U=
+-----END CERTIFICATE-----
+subject=/OU=Go to https://www.thawte.com/repository/index.html/OU=Thawte SSL123 certificate/OU=Domain Validated/CN=sks-keyservers.net
+issuer=/C=US/O=Thawte, Inc./OU=Domain Validated SSL/CN=Thawte DV SSL CA
+---
+No client certificate CA names sent
+---
+SSL handshake has read 6114 bytes and written 453 bytes
+---
+New, TLSv1/SSLv3, Cipher is DHE-RSA-AES256-SHA
+Server public key is 4096 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+SSL-Session:
+    Protocol  : TLSv1
+    Cipher    : DHE-RSA-AES256-SHA
+    Session-ID: A29F72823FA8068DFD5E2981E6F2BB738403904A8578B4DBD9C3915C331F4B8B
+    Session-ID-ctx: 
+    Master-Key: 21BBEC4294CF5B6C391C67149A00F063DEF84BC0BC8D8A93CD07F01C026EB63AE0812323168BFD57E3E9342508425640
+    Key-Arg   : None
+    TLS session ticket lifetime hint: 3600 (seconds)
+    TLS session ticket:
+    0000 - df c0 91 6f 6c f8 f9 c7-03 11 7d 7a 2d 7d ef 62   ...ol.....}z-}.b
+    0010 - 62 58 52 d2 1e 03 cf 4c-2a 69 da a5 49 5c 9e 39   bXR....L*i..I\.9
+    0020 - 03 20 fc 87 d7 6f 32 37-8f f9 36 4d 4c bf e0 42   . ...o27..6ML..B
+    0030 - c2 d8 f5 86 81 4b 38 76-1d 85 bb 32 c6 44 b9 8c   .....K8v...2.D..
+    0040 - 63 63 fd a8 20 48 0d ef-69 f5 f5 95 90 27 bb 59   cc.. H..i....'.Y
+    0050 - f8 81 dd b8 cf cf 1d 9d-1a 84 1c 11 e2 c1 d8 c9   ................
+    0060 - c9 9a a9 a4 19 49 c9 ac-96 a6 e6 de 2e 32 b3 8a   .....I.......2..
+    0070 - 6f 15 02 e1 6b db 65 83-d2 4b eb 3d 24 35 be 36   o...k.e..K.=$5.6
+    0080 - 8f 61 76 81 6c 1f 9e 48-c4 27 8b d3 a0 f4 66 f2   .av.l..H.'....f.
+    0090 - 44 45 7b 03 4d c4 eb e6-15 a7 3d bc 73 25 a9 bf   DE{.M.....=.s%..
+    00a0 - 92 3c 9c 88 ef 72 d0 ac-0b 53 89 d5 b5 80 01 31   .<...r...S.....1
+    00b0 - 15 cc 64 57 19 3c 91 e8-fb 25 2e 8d b7 8f 7e 7e   ..dW.<...%....~~
+    00c0 - e1 20 ba 6a 66 e9 fa 48-62 4d 62 7a 29 fe 7d a1   . .jf..HbMbz).}.
+    00d0 - 83 a3 73 38 d8 ca 00 3b-0d 2d 0f 87 cb 9b fb b3   ..s8...;.-......
+    00e0 - 73 74 f6 7e aa 0e 68 aa-a1 6c 23 35 d6 e2 e2 88   st.~..h..l#5....
+    00f0 - 54 9f a8 a9 7a cc 70 25-82 58 71 bb cb 46 d4 6a   T...z.p%.Xq..F.j
+    0100 - 59 54 fc c8 3e b7 4d bc-ee 04 4a db ca ab 8f 84   YT..>.M...J.....
+    0110 - 10 a3 e0 a5 b9 6c b4 57-41 e8 ad cf 4f 71 8b 1d   .....l.WA...Oq..
+    0120 - 7d 09 88 a9 5f 93 89 6d-fb db 26 9e f0 d8 54 60   }..._..m..&...T`
+    0130 - a6 f7 c8 27 d9 01 6c a5-14 e6 ab 66 b4 b0 06 f5   ...'..l....f....
+    0140 - 91 bc ae d7 6c 02 d5 f4-a1 4b 9e 95 42 94 8d fe   ....l....K..B...
+    0150 - 76 af ac 1b 6b 03 bf a3-a0 e0 06 d7 1d c9 a8 e6   v...k...........
+    0160 - 96 9f 6f dc 6f f0 38 de-8a 71 3c a6 65 af 63 c4   ..o.o.8..q<.e.c.
+    0170 - fa 8f 86 b3 ec 5a 36 c0-0c 30 1f ea 61 bd 66 58   .....Z6..0..a.fX
+    0180 - ab 4d db 9c 31 3c 14 33-65 ff ee 87 44 7b 03 95   .M..1<.3e...D{..
+    0190 - c2 14 4e 7c 00 96 06 a9-b2 e5 58 7b d5 74 2b 85   ..N|......X{.t+.
+    01a0 - 0e 6d fc 5f ce 70 2e 6c-59 59 50 8b cf 43 2b 7b   .m._.p.lYYP..C+{
+    01b0 - 22 68 d9 d5 4b 88 48 0a-e7 89 7a 41 b4 d9 20 9e   "h..K.H...zA.. .
+    01c0 - 44 bf c7 13 c6 63 d7 f3-9c 30 ad 45 61 e3 d7 17   D....c...0.Ea...
+    01d0 - 2b 5e d5 5f 4a 1c 57 17-3d 05 b3 44 19 9e 57 e1   +^._J.W.=..D..W.
+    01e0 - d8 a4 10 20 b3 d8 24 c7-4f 3e e5 08 33 a1 c2 14   ... ..$.O>..3...
+    01f0 - 81 f8 e6 a6 c1 e6 96 ee-8c 4e ee ba 72 67 1a 0c   .........N..rg..
+    0200 - d3 16 05 f7 26 32 7b d8-de be 6f 07 93 9d 15 3e   ....&2{...o....>
+    0210 - fe 06 cb 8f 5a dc 26 c9-0d 77 74 1d 53 32 c8 08   ....Z.&..wt.S2..
+    0220 - 58 2d 96 88 a3 34 6f 64-18 08 57 8b f9 75 1c 9f   X-...4od..W..u..
+    0230 - 77 6c ff 3c de 99 7b 3b-16 f8 a5 04 91 e9 18 e9   wl.<..{;........
+    0240 - 33 ec bc b2 cd a2 5f 39-f2 26 ae eb 62 f2 30 b7   3....._9.&..b.0.
+    0250 - 2a 89 fb 6e ed cf ef 4a-cb b1 dd 6c 37 a4 df da   *..n...J...l7...
+    0260 - 5f 6b 9f 38 76 d4 4d 50-13 73 35 92 77 ef 8f dc   _k.8v.MP.s5.w...
+    0270 - 51 a7 d0 01 59 ff d2 84-77 c1 30 59 35 ca c4 db   Q...Y...w.0Y5...
+    0280 - 5d 1b c6 ea 91 41 2a ce-4b 64 fb 9d b8 64 ed 62   ]....A*.Kd...d.b
+    0290 - 94 94 c0 2c 3f 0d ce 0d-6a 08 31 9f df e4 b9 62   ...,?...j.1....b
+    02a0 - 67 fb a1 cc 01 ea 23 94-63 3d c9 c8 6a 7e 2d a4   g.....#.c=..j~-.
+    02b0 - 16 50 72 5d 49 a6 d1 15-5d 28 77 ae ea 4e 50 61   .Pr]I...](w..NPa
+    02c0 - dd a4 8d cd 2e cb 43 fc-16 87 61 cd 3c f3 6d 5c   ......C...a.<.m\
+    02d0 - 2c 43 04 f6 0b bd ce 2a-6d f5 c5 b1 fc ab af 11   ,C.....*m.......
+    02e0 - e7 c8 4d e8 20 78 01 eb-22 28 1c 1c da 8c c9 53   ..M. x.."(.....S
+    02f0 - 5b f6 0d 40 5b 15 10 93-34 e8 d7 da 24 de 82 b9   [..@[...4...$...
+    0300 - 15 35 58 91 d5 0e 04 86-20 7c 68 0d 8d 8c 9b c2   .5X..... |h.....
+    0310 - 63 72 54 d5 ea 43 83 bb-90 2a 0b 97 40 13 9d ff   crT..C...*..@...
+    0320 - 00 ae 11 82 9d 1f 21 30-c3 43 31 3e c9 d1 42 03   ......!0.C1>..B.
+    0330 - 46 6c df 1e 28 44 2a 8a-d6 bf 25 b9 2f be cf 20   Fl..(D*...%./.. 
+    0340 - 84 54 8d a3 b3 a9 d7 c5-c8 36 06 2e 2f 33 47 cf   .T.......6../3G.
+    0350 - c3 6b 24 1b 1b 59 03 2a-a9 e1 ce ff cd db 8b 8a   .k$..Y.*........
+    0360 - 5b f6                                             [.
+
+    Start Time: 1414166996
+    Timeout   : 300 (sec)
+    Verify return code: 0 (ok)
+---
